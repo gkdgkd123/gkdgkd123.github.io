@@ -22,6 +22,11 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+/* About 页不显示 banner subtitle（“关于”） */
+body.about-page #subtitle {
+  display: none !important;
+}
+
 /* 导航栏背景（滚动后 top-nav-collapse 会生效） */
 #navbar.navbar,
 #navbar.top-nav-collapse,
