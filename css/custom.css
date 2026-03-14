@@ -23,7 +23,11 @@
 }
 
 /* About 页不显示 banner subtitle（“关于”） */
-body.about-page #subtitle {
+body .header-inner[style*="60vh"] #subtitle {
+  display: none !important;
+}
+
+body .header-inner[style*="60vh"] .typed-cursor {
   display: none !important;
 }
 
