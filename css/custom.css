@@ -22,6 +22,42 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+/* ===== The Monolith Block (Home only) ===== */
+body.home-page #banner {
+  min-height: 100vh;
+}
+
+body.home-page #banner .banner-text {
+  width: min(92vw, 1200px);
+  position: relative;
+  text-align: left !important;
+}
+
+body.home-page #subtitle {
+  display: block;
+  text-transform: uppercase;
+  font-family: Impact, "Arial Black", "Helvetica Black", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  font-size: clamp(56px, 10vw, 140px);
+  letter-spacing: -0.04em;
+  line-height: 0.86;
+  color: #ffffff;
+  white-space: pre-line;
+}
+
+body.home-page #banner .banner-text::after {
+  content: "GKDf1sh";
+  position: fixed;
+  right: 16px;
+  bottom: 12px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.18);
+  pointer-events: none;
+}
+
 /* 导航栏背景（滚动后 top-nav-collapse 会生效） */
 #navbar.navbar,
 #navbar.top-nav-collapse,
