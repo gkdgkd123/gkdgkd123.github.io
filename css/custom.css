@@ -13,7 +13,7 @@
 }
 
 body.home-page #banner {
-  background: #1a1a1a !important;
+  background: #0a0a0a !important;
 }
 
 @media (max-width: 767px) {
