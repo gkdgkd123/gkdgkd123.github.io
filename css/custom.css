@@ -12,12 +12,22 @@
   text-align: left !important;
 }
 
+/* Banner 背景 - 强制覆盖内联样式 */
 #banner {
   background: #000000 !important;
+  background-image: none !important;
 }
 
 #banner .mask {
   background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* 导航栏背景（滚动后 top-nav-collapse 会生效） */
+#navbar.navbar,
+#navbar.top-nav-collapse,
+#navbar.navbar-col-show,
+#navbar .dropdown-collapse {
+  background-color: #000000 !important;
 }
 
 @media (max-width: 767px) {

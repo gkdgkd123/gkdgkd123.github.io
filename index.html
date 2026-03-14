@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-  <meta name="theme-color" content="#2f4154">
+  <meta name="theme-color" content="#000000">
   <meta name="author" content="gkdgkd123">
   <meta name="keywords" content="">
   
@@ -292,7 +292,7 @@
 <div id="banner" class="banner" parallax=true
      style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
-    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
@@ -345,7 +345,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2026/03/14/test/" target="_self">
         <div>
-          这篇是对 Java 反序列化问题的一个简要梳理，偏实践视角，尽量把核心概念、典型风险点和防护要点讲清楚。 1. 反序列化到底“危险”在什么地方？ Java 原生序列化会把对象图完整写入字节流，反序列化时再完整还原。问题在于：反序列化并不只是“还原数据”，而是会触发对象的构造、字段还原与回调方法（比如 readObject()、readResolve()、finalize() 等）。 如果输入的字节
+          这篇是对 Java 反序列化问题的一个简要梳理，偏实践视角，尽量把核心概念、典型风险点和防护要点讲清楚。 1. 反序列化到底“危险”在什么地方？Java 原生序列化会把对象图完整写入字节流，反序列化时再完整还原。问题在于：反序列化并不只是“还原数据”，而是会触发对象的构造、字段还原与回调方法（比如 readObject()、readResolve()、finalize() 等）。 如果输入的字节流
         </div>
       </a>
 
