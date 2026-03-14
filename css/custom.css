@@ -16,6 +16,10 @@
   background: #000000 !important;
 }
 
+#banner .mask {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
 @media (max-width: 767px) {
   #subtitle,
   .typed-cursor {
