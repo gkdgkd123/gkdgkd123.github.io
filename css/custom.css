@@ -1,11 +1,15 @@
 #subtitle,
 .typed-cursor {
   font-size: 4.8rem;
-  text-align: left;
+  text-align: left !important;
 }
 
 .banner-text {
-  text-align: left;
+  text-align: left !important;
+}
+
+.banner-text .h2 {
+  text-align: left !important;
 }
 
 @media (max-width: 767px) {
