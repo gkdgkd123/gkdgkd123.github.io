@@ -296,7 +296,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Are you safe, or just numb?"></span>
+            <span id="subtitle" data-typed-text="Are you safe,&lt;br&gt;or just numb?"></span>
           
         </div>
 
@@ -345,7 +345,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2026/03/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" target="_self">
         <div>
-          这篇是对 Java 反序列化问题的一个简要梳理，偏实践视角，尽量把核心概念、典型风险点和防护要点讲清楚。 1. 反序列化到底“危险”在什么地方？ Java 原生序列化会把对象图完整写入字节流，反序列化时再完整还原。问题在于：反序列化并不只是“还原数据”，而是会触发对象的构造、字段还原与回调方法（比如 readObject()、readResolve()、finalize() 等）。 如果输入的字节
+          这篇是对 Java 反序列化问题的一个简要梳理，偏实践视角，尽量把核心概念、典型风险点和防护要点讲清楚。 1. 反序列化到底“危险”在什么地方？Java 原生序列化会把对象图完整写入字节流，反序列化时再完整还原。问题在于：反序列化并不只是“还原数据”，而是会触发对象的构造、字段还原与回调方法（比如 readObject()、readResolve()、finalize() 等）。 如果输入的字节流
         </div>
       </a>
 
