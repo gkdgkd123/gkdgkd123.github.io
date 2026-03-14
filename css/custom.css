@@ -12,6 +12,10 @@
   text-align: left !important;
 }
 
+body.home-page #banner {
+  background: #1a1a1a !important;
+}
+
 @media (max-width: 767px) {
   #subtitle,
   .typed-cursor {
